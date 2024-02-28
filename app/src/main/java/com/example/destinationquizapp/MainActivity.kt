@@ -1,5 +1,6 @@
 package com.example.destinationquizapp
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -13,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.new_layout)
 
         button = findViewById(R.id.button2)
-        button.text = "Login Button"
+        button.text = getString(R.string.button_text)
     }
 }
